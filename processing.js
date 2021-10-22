@@ -107,6 +107,7 @@ function predictImage() {
     result.print();
     const output = result.dataSync()[0];
 
+    console.log(result)
 
     // console.log(tf.memory());
     
