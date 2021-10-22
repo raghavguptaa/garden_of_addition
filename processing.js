@@ -98,6 +98,8 @@ function predictImage() {
     //create a tensor 
     const X = tf.tensor([pixelValues]);
 
+    
+    console.log(X);
     // console.log(`Shape of Tensor: ${X.shape}`);
     // console.log(`dtype of Tensor: ${X.dtype}`);
 
